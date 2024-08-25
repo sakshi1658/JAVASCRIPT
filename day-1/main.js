@@ -67,11 +67,11 @@ console.log(typeof num);
 console.log(typeof string);
 
 // Declare a variable greeting and assign it the value 'Hello, World!'. Extract the substring 'World' from it.
-let greeting = "Hello, World"
+let greeting = "Hello, World";
 let substring = greeting.slice(7, 12); // Using slice method
 console.log(substring);
 
 // Create a variable fullName and assign it the value 'John Doe'. Convert it to uppercase?
 let fullName = "John Doe";
 let upperCaseName = fullName.toUpperCase();
-console.log(upperCaseName)
+console.log(upperCaseName);
