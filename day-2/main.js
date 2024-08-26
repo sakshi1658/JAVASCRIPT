@@ -25,3 +25,12 @@ console.log(isValid);
 // It's a shorthand for an if-else statement that can be used to assign a value to a variable or return a value from a function.
 const isEven = 10 % 2 === 0 ? 'Even' : 'Odd';
 console.log(isEven)
+
+
+// Questions
+
+//  Swap Two Variables.
+function swap (a,b) {
+    return [b,a];
+    }
+console.log(swap(1,2))
