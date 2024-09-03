@@ -1,4 +1,4 @@
-//Log a statemnetusing console.log()
+//Log a statemnet using console.log()
 console.log("Hello from main.js");
 
 // Variables Let & Const
