@@ -6,7 +6,9 @@ document.getElementById("increment-btn").onclick = function(){
 }
 
 document.getElementById("decrement-btn").onclick = function(){
-    count-=1;
+    if (count>0) {
+        count-=1
+    }
     document.getElementById("counter-value").innerHTML = count;
 }
 
