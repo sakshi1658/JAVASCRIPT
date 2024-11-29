@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>
+      Create a button that, when clicked, changes the text color of a paragraph
+      with a specific id.
+    </h2>
+
+    <p id="Changecolor" style="color: cadetblue">
+      Hi, I'm Sakshi Sharma Learning JS. So first day of learning and I'm
+      practising questions of getelementbyid. <br />
+      It "finds" an HTML element (with id="Changecolor"), and changes the element
+      content (innerHTML)
+      <br />
+      ->getElementById is a method provided by the document object in
+      JavaScript.
+      <br />
+      ->It is used to access an element in the DOM with a specific id attribute.
+      <br />
+      ->If no element with the given id exists, it returns null.
+    </p>
+    <button
+      type="button"
+      onclick="document.getElementById('Changecolor').style.color='pink'"
+    >
+      Click Me!
+    </button>
+  </body>
+</html>

@@ -10,7 +10,6 @@ function  decrement(){
     count-=1;
     document.getElementById("counter-value").innerHTML = count; // this update the  value of counter with help of innerHTml () method
 // document allow us  to access the element of the webpage & getelement byid() method is used to access the element of the webpage by id
-
 }
 
 
