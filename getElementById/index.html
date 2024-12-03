@@ -9,8 +9,8 @@
     <p id="Changecolor" style="color: cadetblue">
       Hi, I'm Sakshi Sharma Learning JS. So first day of learning and I'm
       practising questions of getelementbyid. <br />
-      It "finds" an HTML element (with id="Changecolor"), and changes the element
-      content (innerHTML)
+      It "finds" an HTML element (with id="Changecolor"), and changes the
+      element content (innerHTML)
       <br />
       ->getElementById is a method provided by the document object in
       JavaScript.
@@ -26,20 +26,53 @@
       Click Me!
     </button>
 
-    <h2>Create a button that hides a specific element with an id when clicked.</h2>
+    <h2>
+      Create a button that hides a specific element with an id when clicked.
+    </h2>
     <p id="hides">Hide me</p>
-    <button type="button" onclick="document.getElementById('hides').style.display='none'">Click Me!</button>
+    <button
+      type="button"
+      onclick="document.getElementById('hides').style.display='none'"
+    >
+      Click Me!
+    </button>
 
     <h2>Create two buttons: "Show" and "Hide"</h2>
-  
-    <p id="toggle" style="display: none;">Toggle me</p>
-    
+
+    <p id="toggle" style="display: none">Toggle me</p>
+
     <button id="hideBtn">Hide Me!</button>
     <button id="showBtn">Show Me!</button>
 
-    <h2>Create a button that changes multiple styles (like background color, font size, and border) of an element with an id when clicked.</h2>
-    <p id="changeStyle" style="background-color: lightblue; font-size: 20px; border: 2px">Hi All! I'm Sakshi.</p>
-        <button type="button" onclick="document.getElementById('changeStyle').style.cssText ='font-size:40px; background-color:yellow; border:4px'">Click Me!</button>
+    <h2>
+      Create a button that changes multiple styles (like background color, font
+      size, and border) of an element with an id when clicked.
+    </h2>
+    <p
+      id="changeStyle"
+      style="background-color: lightblue; font-size: 20px; border: 2px"
+    >
+      Hi All! I'm Sakshi.
+    </p>
+    <button
+      type="button"
+      onclick="document.getElementById('changeStyle').style.cssText ='font-size:40px; background-color:yellow; border:4px'"
+    >
+      Click Me!
+    </button>
+
+    <h2>
+      Use getElementById to display a timer in a
+      <p>
+        . Start the timer when a button is clicked and stop it with another
+        button.
+      </p>
+    </h2>
+    <h2 style="font-size: 60px; color: blueviolet">Timer</h2>
+    <p id="timer" style="font-size: 40px; font-weight: bold">0</p>
+    <button onclick="startTimer()">Start Timer</button>
+    <button onclick="stopTimer()">Stop Timer</button>
+
     <script src="script.js"></script>
   </body>
 </html>
