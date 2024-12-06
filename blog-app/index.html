@@ -3,75 +3,24 @@
   <header>
     <title>BLOG-APP</title>
   </header>
-  <section>
-    <form id="form">
-      <header
-        style="
-          text-align: center;
-          font-size: 24px;
-          font-weight: bold;
-          color: #333;
-          padding: 10px 0;
-          border-bottom: 2px solid #ff5722;
-        "
-      >
-        <label>BLOG APP</label>
-      </header>
-      <div
-        style="
-          border: 2px solid #ccc;
-          border-radius: 8px;
-          padding: 30px;
-          max-width: 800px;
-          margin: 20px auto;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          height: 100vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        "
-      >
-        <div>
-          <h2 style="text-align: center; font-size: 32px; margin-bottom: 20px">
-            Add Blog
-          </h2>
-          <div>
-            <p style="font-size: 16px; color: #666">Title</p>
-            <input
-              type="text"
-              style="width: 100%; padding: 10px; margin-bottom: 20px"
-            />
-          </div>
-          <div>
-            <p style="font-size: 16px; color: #666">Content</p>
-            <textarea
-              id="content"
-              style="
-                width: 100%;
-                padding: 10px;
-                min-height: 150px;
-                margin-bottom: 20px;
-              "
-            ></textarea>
-          </div>
-        </div>
-        <div style="text-align: center">
-          <button
-            type="button"
-            style="
-              padding: 10px 20px;
-              background-color: #ff5722;
-              color: white;
-              border: none;
-              border-radius: 4px;
-              cursor: pointer;
-              font-size: 16px;
-            "
-          >
-            Submit
-          </button>
-        </div>
-      </div>
-    </form>
+  <section id="blogs">
+    <h1>Title</h1>
+    <p>content</p>
   </section>
+  <section
+    id="blogList"
+    style="
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    "
+  >
+    <h2 style="text-align: center; font-size: 24px; color: #333">
+      Submitted Blogs
+    </h2>
+    <div id="blogs"></div>
+  </section>
+  <script src="script.js"></script>
 </body>
