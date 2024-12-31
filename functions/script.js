@@ -25,11 +25,19 @@ const numbers = [3, 6, 54, 21, 1243, 232];
 console.log(findLargest(numbers));
 
 //  Check for Palindrome
-function isPalindrome(num){
-    let numStr = num.toString();
-    let result = numStr.split('').reverse().join('');
-    return numStr === result;
+function isPalindrome(num) {
+  let numStr = num.toString();
+  let result = numStr.split("").reverse().join("");
+  return numStr === result;
 }
 console.log(isPalindrome(121));
 console.log(isPalindrome(3132));
-console.log(isPalindrome('madam'));
+console.log(isPalindrome("madam"));
+
+// Find the Intersection of Two Arrays
+function Intersection(arr1, arr2) {
+  return arr1.filter((num) => arr2.includes(num));
+}
+const array1 = [2, 9, 8, 7, 6];
+const array2 = [3, 8, 9, 0];
+console.log(Intersection(array1, array2));
