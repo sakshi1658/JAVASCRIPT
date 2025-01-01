@@ -41,3 +41,16 @@ function Intersection(arr1, arr2) {
 const array1 = [2, 9, 8, 7, 6];
 const array2 = [3, 8, 9, 0];
 console.log(Intersection(array1, array2));
+
+// Find the Largest Number in an Array
+function findLargest(arr){
+    let largest = arr[0];
+    for (let i = 1; i< arr.length; i++){
+        if(arr[i]>largest){
+            largest =arr[i];
+        }
+    }
+    return largest;
+}
+const number = [5,8,9,87];
+console.log(findLargest(number));
