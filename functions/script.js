@@ -56,12 +56,25 @@ const number = [5, 8, 9, 87];
 console.log(findLargest(number));
 
 // Find the Missing Number
-function findMissing(arr,n){
-  const totalSum =(n*(n+1))/2;
-  const actualSum = arr.reduce((sum,num) =>sum+num, 0);
-  return totalSum-actualSum;
-
+function findMissing(arr, n) {
+  const totalSum = (n * (n + 1)) / 2;
+  const actualSum = arr.reduce((sum, num) => sum + num, 0);
+  return totalSum - actualSum;
 }
-const num =[1,2,4,5,6];
+const num = [1, 2, 4, 5, 6];
 const n = 6;
-console.log(findMissing(num,n));
+console.log(findMissing(num, n));
+
+//  Sum of Odd Numbers in an Array
+function sumOfOdds(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 !== 0) {
+      sum += arr[i];
+    }
+  }
+  return sum;
+}
+
+const add = [1, 2, 3, 4, 5, 6, 7];
+console.log(sumOfOdds(add)); // Output: 16
