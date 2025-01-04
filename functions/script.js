@@ -78,3 +78,9 @@ function sumOfOdds(arr) {
 
 const add = [1, 2, 3, 4, 5, 6, 7];
 console.log(sumOfOdds(add)); // Output: 16
+
+// Write a JavaScript program to find the maximum number in an array. 
+const a = [22,12,32,42];
+console.log(Math.max(...a));
+
+ 
