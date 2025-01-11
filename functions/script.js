@@ -84,3 +84,6 @@ const a = [22,12,32,42];
 console.log(Math.max(...a));
 
  
+// arrow function
+const addArrow =(a,b) => a+b;
+console.log(addArrow(2,3));
