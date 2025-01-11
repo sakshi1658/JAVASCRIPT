@@ -87,3 +87,8 @@ console.log(Math.max(...a));
 // arrow function
 const addArrow =(a,b) => a+b;
 console.log(addArrow(2,3));
+
+//  IIFE (Immediately Invoked Function Expression)
+(function() {
+  console.log("This is an IIFE!");
+})();
